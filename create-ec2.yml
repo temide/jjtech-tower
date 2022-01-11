@@ -2,7 +2,6 @@
 - hosts: localhost
   connection: local
   gather_facts: False
-
   tasks:
   - name: Create EC2
     ec2_instance:
